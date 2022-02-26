@@ -2,38 +2,17 @@
 
 
 /* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 360px){
-    /* .header_area .main-menu .navbar,
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
     .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
     .site-main .services-area,
     .site-main .subscribe-us-area .subscribe
     {
-        padding: 5%;
-        margin: 0%;
-    } */
-
-    section.site-banner{
-        padding: 5%;
+        padding: 2%;
         margin: 0%;
     }
-
-    h4.title-text.text-uppercase{
-        font-size:10px;
-        line-height: 20px;
-    }
-
-    span{
- 
-        margin-left:29%;
-    }
-
-    .button.secondary-button{
-        margin-left:35%;
-    }
-
-   
 
     .site-main .site-banner .site-title h1{
         font-size: 41px;
@@ -54,50 +33,14 @@
 
 
 /* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 1000px){
-
-    .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand,
-    .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
-    {
-        padding: 5%;
-        margin: 0%;
-    }
-
-    span.about{
+@media only screen and (max-width: 792px){
+    section#about.about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
-        margin-left:10rem;
     }
-    .button.primary-button{
-        margin-left:5rem;
-    }
-    .site-main .site-banner .site-title h4{
-        margin-left:5rem;
-    }
-    .site-main .site-banner .site-title h2{
-        margin-left:5rem;
-    }
+
 
     div.paragraph.py-4.w-75{
-        margin-left:10%;
-    }
-
-    img.img-fluid{
-        width:25rem;
-        height:25rem;;
-        border-radius:80%;
-        border: 5px solid rgb(243, 243, 118);
-        object-fit: cover;
-        margin-top: 7rem;
-        margin-left:17%;
-        /* margin-left:7rem; */
-    }
-
-    div.col-lg-6col-md-12.col-sm-12{
         margin-left:10%;
     }
 
@@ -114,13 +57,10 @@
         width: 20rem;
         margin: 5%;
     }
-
-    div.education-area{
-        padding: 2%;
-        margin: 0%;
+    h1.text-uppercase.text-center{
+        /* padding-bottom:2rem; */
+        /* font: normal bold 20px/ 30px var(--roboto); */
     }
-
-
 }
 
 
